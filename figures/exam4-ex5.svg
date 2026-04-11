@@ -1,0 +1,63 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle EFG -->
+
+  <!-- Point E (en haut) -->
+  <circle cx="250" cy="50" r="5" fill="black"/>
+
+  <!-- Point F (en bas à gauche) -->
+  <circle cx="100" cy="320" r="5" fill="black"/>
+
+  <!-- Point G (en bas à droite) -->
+  <circle cx="400" cy="320" r="5" fill="black"/>
+
+  <!-- Segment EF -->
+  <line x1="250" y1="50" x2="100" y2="320" stroke="black" stroke-width="2.5"/>
+
+  <!-- Segment EG -->
+  <line x1="250" y1="50" x2="400" y2="320" stroke="black" stroke-width="2.5"/>
+
+  <!-- Segment FG -->
+  <line x1="100" y1="320" x2="400" y2="320" stroke="black" stroke-width="2.5"/>
+
+  <!-- Point H sur [EF] tel que EH/EF = 39/104 = 3/8 -->
+  <!-- H est aux 3/8 de E vers F -->
+  <!-- Position H : E + (3/8)(F - E) -->
+  <!-- x = 250 + (3/8)(100 - 250) = 250 - 56.25 = 193.75 -->
+  <!-- y = 50 + (3/8)(320 - 50) = 50 + 101.25 = 151.25 -->
+  <circle cx="194" cy="151" r="4" fill="red"/>
+
+  <!-- Point K sur [EG] tel que EK/EG = 51/136 = 3/8 -->
+  <!-- K est aux 3/8 de E vers G -->
+  <!-- Position K : E + (3/8)(G - E) -->
+  <!-- x = 250 + (3/8)(400 - 250) = 250 + 56.25 = 306.25 -->
+  <!-- y = 50 + (3/8)(320 - 50) = 50 + 101.25 = 151.25 -->
+  <circle cx="306" cy="151" r="4" fill="blue"/>
+
+  <!-- Segment HK (parallèle à FG) -->
+  <line x1="194" y1="151" x2="306" y2="151" stroke="green" stroke-width="2.5"/>
+
+  <!-- Segment FG en pointillés pour montrer le parallélisme -->
+  <line x1="100" y1="320" x2="400" y2="320" stroke="purple" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Labels des points -->
+  <text x="255" y="45" font-size="18" font-weight="bold">E</text>
+  <text x="80" y="330" font-size="18" font-weight="bold">F</text>
+  <text x="410" y="330" font-size="18" font-weight="bold">G</text>
+  <text x="170" y="145" font-size="16" font-weight="bold" fill="red">H</text>
+  <text x="315" y="145" font-size="16" font-weight="bold" fill="blue">K</text>
+
+  <!-- Dimensions -->
+  <text x="155" y="90" font-size="13" fill="blue">EF = 104 mm</text>
+  <text x="310" y="90" font-size="13" fill="blue">EG = 136 mm</text>
+  <text x="230" y="350" font-size="13" fill="blue">FG = ?</text>
+
+  <text x="165" y="120" font-size="13" fill="red">EH = 39 mm</text>
+  <text x="305" y="120" font-size="13" fill="blue">EK = 51 mm</text>
+  <text x="235" y="140" font-size="13" fill="green">HK = 48 mm</text>
+
+  <!-- Indication de parallélisme -->
+  <text x="210" y="200" font-size="14" fill="green" font-weight="bold">(HK) // (FG)</text>
+
+  <!-- Note -->
+  <text x="170" y="380" font-size="13" fill="gray" font-style="italic">Figure non à l'échelle</text>
+</svg>

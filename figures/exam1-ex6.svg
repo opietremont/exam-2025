@@ -1,0 +1,40 @@
+<svg width="450" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Carré ABCD -->
+  <rect x="100" y="100" width="240" height="240" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Milieux des côtés -->
+  <circle cx="220" cy="100" r="3" fill="red"/>  <!-- E milieu de [AB] -->
+  <circle cx="340" cy="220" r="3" fill="red"/>  <!-- F milieu de [BC] -->
+  <circle cx="220" cy="340" r="3" fill="red"/>  <!-- G milieu de [CD] -->
+  <circle cx="100" cy="220" r="3" fill="red"/>  <!-- H milieu de [DA] -->
+
+  <!-- Quadrilatère EFGH -->
+  <line x1="220" y1="100" x2="340" y2="220" stroke="red" stroke-width="2"/>
+  <line x1="340" y1="220" x2="220" y2="340" stroke="red" stroke-width="2"/>
+  <line x1="220" y1="340" x2="100" y2="220" stroke="red" stroke-width="2"/>
+  <line x1="100" y1="220" x2="220" y2="100" stroke="red" stroke-width="2"/>
+
+  <!-- Centre O -->
+  <circle cx="220" cy="220" r="4" fill="blue"/>
+  <text x="230" y="225" font-size="14" font-weight="bold" fill="blue">O</text>
+
+  <!-- Points du carré -->
+  <circle cx="100" cy="100" r="4" fill="black"/>
+  <circle cx="340" cy="100" r="4" fill="black"/>
+  <circle cx="340" cy="340" r="4" fill="black"/>
+  <circle cx="100" cy="340" r="4" fill="black"/>
+
+  <!-- Labels -->
+  <text x="85" y="95" font-size="16" font-weight="bold">A</text>
+  <text x="345" y="95" font-size="16" font-weight="bold">B</text>
+  <text x="345" y="360" font-size="16" font-weight="bold">C</text>
+  <text x="85" y="360" font-size="16" font-weight="bold">D</text>
+
+  <text x="225" y="95" font-size="14" font-weight="bold" fill="red">E</text>
+  <text x="350" y="225" font-size="14" font-weight="bold" fill="red">F</text>
+  <text x="225" y="360" font-size="14" font-weight="bold" fill="red">G</text>
+  <text x="75" y="225" font-size="14" font-weight="bold" fill="red">H</text>
+
+  <!-- Dimension -->
+  <text x="190" y="85" font-size="12" fill="blue">côté = 48 mm</text>
+</svg>

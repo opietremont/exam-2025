@@ -1,0 +1,64 @@
+<svg width="500" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trapèze ABCD avec (AB) // (CD) -->
+
+  <!-- Trapèze original ABCD -->
+  <line x1="50" y1="120" x2="370" y2="120" stroke="black" stroke-width="2"/>
+  <line x1="370" y1="120" x2="330" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="330" y1="270" x2="90" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="90" y1="270" x2="50" y2="120" stroke="black" stroke-width="2"/>
+
+  <!-- Hauteur h -->
+  <line x1="130" y1="120" x2="130" y2="270" stroke="blue" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="125" y1="120" x2="135" y2="120" stroke="blue" stroke-width="2"/>
+  <line x1="125" y1="270" x2="135" y2="270" stroke="blue" stroke-width="2"/>
+
+  <!-- Trapèze A'B'C'D' après homothétie (plus petit, décalé) -->
+  <line x1="100" y1="320" x2="340" y2="320" stroke="red" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="340" y1="320" x2="310" y2="410" stroke="red" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="310" y1="410" x2="130" y2="410" stroke="red" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="130" y1="410" x2="100" y2="320" stroke="red" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <!-- Hauteur h' -->
+  <line x1="170" y1="320" x2="170" y2="410" stroke="purple" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Points ABCD -->
+  <circle cx="50" cy="120" r="4" fill="black"/>
+  <circle cx="370" cy="120" r="4" fill="black"/>
+  <circle cx="330" cy="270" r="4" fill="black"/>
+  <circle cx="90" cy="270" r="4" fill="black"/>
+
+  <!-- Points A'B'C'D' -->
+  <circle cx="100" cy="320" r="3" fill="red"/>
+  <circle cx="340" cy="320" r="3" fill="red"/>
+  <circle cx="310" cy="410" r="3" fill="red"/>
+  <circle cx="130" cy="410" r="3" fill="red"/>
+
+  <!-- Centre O de l'homothétie -->
+  <circle cx="400" cy="50" r="4" fill="green"/>
+  <text x="410" y="55" font-size="14" font-weight="bold" fill="green">O</text>
+
+  <!-- Labels ABCD -->
+  <text x="35" y="115" font-size="16" font-weight="bold">A</text>
+  <text x="380" y="115" font-size="16" font-weight="bold">B</text>
+  <text x="340" y="280" font-size="16" font-weight="bold">C</text>
+  <text x="80" y="285" font-size="16" font-weight="bold">D</text>
+
+  <!-- Labels A'B'C'D' -->
+  <text x="85" y="315" font-size="14" font-weight="bold" fill="red">A'</text>
+  <text x="350" y="315" font-size="14" font-weight="bold" fill="red">B'</text>
+  <text x="320" y="425" font-size="14" font-weight="bold" fill="red">C'</text>
+  <text x="120" y="430" font-size="14" font-weight="bold" fill="red">D'</text>
+
+  <!-- Dimensions trapèze ABCD -->
+  <text x="180" y="110" font-size="12" fill="blue">AB = 84 mm</text>
+  <text x="180" y="285" font-size="12" fill="blue">CD = 56 mm</text>
+  <text x="140" y="200" font-size="12" fill="blue">h = 48 mm</text>
+
+  <!-- Dimensions trapèze A'B'C'D' -->
+  <text x="200" y="305" font-size="11" fill="red">A'B' = ?</text>
+  <text x="200" y="425" font-size="11" fill="red">C'D' = ?</text>
+  <text x="180" y="370" font-size="11" fill="purple">h' = ?</text>
+
+  <!-- Note homothétie -->
+  <text x="50" y="30" font-size="13" fill="green">Homothétie de centre O, rapport k = 3/4</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="500" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle ABC rectangle en B -->
+  <line x1="50" y1="400" x2="50" y2="130" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="400" x2="290" y2="400" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="130" x2="290" y2="400" stroke="black" stroke-width="2"/>
+
+  <!-- Angle droit en B -->
+  <rect x="50" y="390" width="10" height="10" fill="none" stroke="black" stroke-width="1"/>
+
+  <!-- Point M milieu de [AC] -->
+  <circle cx="170" cy="265" r="4" fill="red"/>
+
+  <!-- Point N sur [AB] tel que (MN) // (BC) -->
+  <circle cx="50" cy="265" r="3" fill="blue"/>
+
+  <!-- Segment MN parallèle à BC -->
+  <line x1="50" y1="265" x2="170" y2="265" stroke="blue" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- Angle droit en N -->
+  <rect x="50" y="255" width="10" height="10" fill="none" stroke="blue" stroke-width="1"/>
+
+  <!-- Points -->
+  <circle cx="50" cy="400" r="4" fill="black"/>
+  <circle cx="290" cy="400" r="4" fill="black"/>
+  <circle cx="50" cy="130" r="4" fill="black"/>
+
+  <!-- Labels -->
+  <text x="35" y="125" font-size="16" font-weight="bold">A</text>
+  <text x="35" y="420" font-size="16" font-weight="bold">B</text>
+  <text x="300" y="420" font-size="16" font-weight="bold">C</text>
+  <text x="180" y="260" font-size="14" font-weight="bold" fill="red">M</text>
+  <text x="30" y="270" font-size="14" font-weight="bold" fill="blue">N</text>
+
+  <!-- Dimensions -->
+  <text x="15" y="270" font-size="12" fill="blue">AB = 135 mm</text>
+  <text x="150" y="420" font-size="12" fill="blue">BC = 180 mm</text>
+  <text x="150" y="210" font-size="12" fill="orange">AC = ?</text>
+  <text x="95" y="250" font-size="12" fill="blue">AN = ?</text>
+  <text x="95" y="280" font-size="12" fill="blue">MN = ?</text>
+
+  <!-- Note M milieu -->
+  <text x="200" y="280" font-size="11" fill="red">M milieu de [AC]</text>
+
+  <!-- Note parallélisme -->
+  <text x="50" y="440" font-size="12" fill="green">(MN) // (BC)</text>
+</svg>

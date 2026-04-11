@@ -1,0 +1,64 @@
+<svg width="450" height="380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle ABC rectangle en A -->
+  <!-- A en haut à gauche, B en bas à gauche, C en bas à droite -->
+
+  <!-- Segment AB (vertical) -->
+  <line x1="70" y1="50" x2="70" y2="300" stroke="black" stroke-width="2.5"/>
+
+  <!-- Segment BC (diagonal) -->
+  <line x1="70" y1="300" x2="175" y2="50" stroke="black" stroke-width="2.5"/>
+
+  <!-- Segment AC (doit fermer le triangle) -->
+  <line x1="70" y1="50" x2="175" y2="50" stroke="black" stroke-width="2.5"/>
+
+  <!-- Point D sur [AB] tel que AD = 36 mm -->
+  <!-- AD = 36, AB = 84, donc BD = 48 -->
+  <!-- AD/AB = 36/84 = 3/7, donc D est à 3/7 de A vers B -->
+  <!-- Position de D : y = 50 + (250 * 36/84) = 50 + 107 = 157 -->
+  <circle cx="70" cy="157" r="4" fill="red"/>
+
+  <!-- Perpendiculaire à (AB) passant par D -->
+  <!-- AB est vertical, donc la perpendiculaire est horizontale -->
+  <!-- Cette droite coupe [BC] en E -->
+
+  <!-- Calcul de E : -->
+  <!-- BC va de (70, 300) à (175, 50) -->
+  <!-- Pour y = 157 : on résout x -->
+  <!-- Direction BC : (105, -250) -->
+  <!-- De B(70, 300) : (x, y) = (70, 300) + t(105, -250) -->
+  <!-- 157 = 300 - 250t => t = 143/250 = 0.572 -->
+  <!-- x = 70 + 105*0.572 = 70 + 60 = 130 -->
+  <circle cx="130" cy="157" r="4" fill="blue"/>
+
+  <!-- Segment DE (perpendiculaire) -->
+  <line x1="70" y1="157" x2="130" y2="157" stroke="green" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Angle droit en A -->
+  <rect x="70" y="50" width="12" height="12" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Angle droit en D (perpendiculaire) -->
+  <rect x="70" y="157" width="12" height="12" fill="none" stroke="green" stroke-width="1.5"/>
+
+  <!-- Points principaux -->
+  <circle cx="70" cy="50" r="5" fill="black"/>
+  <circle cx="70" cy="300" r="5" fill="black"/>
+  <circle cx="175" cy="50" r="5" fill="black"/>
+
+  <!-- Labels des points -->
+  <text x="50" y="45" font-size="18" font-weight="bold">A</text>
+  <text x="50" y="310" font-size="18" font-weight="bold">B</text>
+  <text x="185" y="45" font-size="18" font-weight="bold">C</text>
+  <text x="50" y="162" font-size="16" font-weight="bold" fill="red">D</text>
+  <text x="140" y="150" font-size="16" font-weight="bold" fill="blue">E</text>
+
+  <!-- Dimensions -->
+  <text x="20" y="180" font-size="13" fill="blue">AB = 84 mm</text>
+  <text x="110" y="330" font-size="13" fill="blue">BC = 91 mm</text>
+  <text x="20" y="110" font-size="13" fill="red">AD = 36 mm</text>
+  <text x="20" y="280" font-size="13" fill="red">BD = 48 mm</text>
+  <text x="85" y="145" font-size="12" fill="green">(DE) ⊥ (AB)</text>
+
+  <!-- Note -->
+  <text x="200" y="200" font-size="11" fill="gray">Figure non à l'échelle</text>
+  <text x="200" y="215" font-size="11" fill="gray">E est sur [BC]</text>
+</svg>

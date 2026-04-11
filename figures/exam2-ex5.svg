@@ -1,0 +1,27 @@
+<svg width="450" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle EFG -->
+  <line x1="50" y1="300" x2="350" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="300" x2="200" y2="50" stroke="black" stroke-width="2"/>
+  <line x1="200" y1="50" x2="350" y2="300" stroke="black" stroke-width="2"/>
+
+  <!-- Angle droit en F (si rectangle) -->
+  <rect x="40" y="290" width="10" height="10" fill="none" stroke="green" stroke-width="1"/>
+
+  <!-- Points -->
+  <circle cx="50" cy="300" r="4" fill="black"/>
+  <circle cx="350" cy="300" r="4" fill="black"/>
+  <circle cx="200" cy="50" r="4" fill="black"/>
+
+  <!-- Labels -->
+  <text x="35" y="325" font-size="16" font-weight="bold">E</text>
+  <text x="360" y="325" font-size="16" font-weight="bold">F</text>
+  <text x="205" y="45" font-size="16" font-weight="bold">G</text>
+
+  <!-- Dimensions -->
+  <text x="110" y="180" font-size="13" fill="blue">EF = 117 mm</text>
+  <text x="260" y="180" font-size="13" fill="blue">FG = 156 mm</text>
+  <text x="180" y="315" font-size="13" fill="blue">EG = 195 mm</text>
+
+  <!-- Question -->
+  <text x="50" y="340" font-size="12" fill="green">Le triangle est-il rectangle ?</text>
+</svg>
