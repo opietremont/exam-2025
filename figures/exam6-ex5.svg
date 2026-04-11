@@ -1,0 +1,50 @@
+<svg width="550" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Carte routière avec échelle -->
+
+  <!-- Titre -->
+  <text x="150" y="30" font-size="18" font-weight="bold" fill="black">Carte routière</text>
+  <text x="180" y="55" font-size="14" fill="gray">Échelle 1/250 000</text>
+
+  <!-- Bordure de la carte -->
+  <rect x="50" y="80" width="450" height="250" fill="lightyellow" fill-opacity="0.3" stroke="black" stroke-width="3"/>
+
+  <!-- Ville A -->
+  <circle cx="120" cy="180" r="8" fill="red"/>
+  <text x="105" y="205" font-size="16" font-weight="bold" fill="red">A</text>
+
+  <!-- Ville B -->
+  <circle cx="372" cy="180" r="8" fill="blue"/>
+  <text x="357" y="205" font-size="16" font-weight="bold" fill="blue">B</text>
+
+  <!-- Route entre A et B -->
+  <line x1="128" y1="180" x2="364" y2="180" stroke="darkgreen" stroke-width="3"/>
+
+  <!-- Distance sur la carte entre A et B -->
+  <line x1="120" y1="220" x2="372" y2="220" stroke="purple" stroke-width="2"/>
+  <line x1="120" y1="215" x2="120" y2="225" stroke="purple" stroke-width="2"/>
+  <line x1="372" y1="215" x2="372" y2="225" stroke="purple" stroke-width="2"/>
+  <text x="220" y="245" font-size="14" fill="purple" font-weight="bold">6,3 cm sur la carte</text>
+
+  <!-- Ville C -->
+  <circle cx="150" cy="120" r="8" fill="orange"/>
+  <text x="135" y="110" font-size="16" font-weight="bold" fill="orange">C</text>
+
+  <!-- Ville D -->
+  <circle cx="420" cy="260" r="8" fill="darkred"/>
+  <text x="425" y="265" font-size="16" font-weight="bold" fill="darkred">D</text>
+
+  <!-- Route entre C et D (en pointillés) -->
+  <line x1="158" y1="125" x2="412" y2="255" stroke="orange" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="270" y="175" font-size="13" fill="orange">? cm (108 km réels)</text>
+
+  <!-- Échelle graphique -->
+  <rect x="70" y="290" width="100" height="15" fill="white" stroke="black" stroke-width="1.5"/>
+  <rect x="70" y="290" width="50" height="15" fill="black"/>
+  <text x="60" y="323" font-size="12">0</text>
+  <text x="110" y="323" font-size="12">50 km</text>
+  <text x="155" y="323" font-size="12">100 km</text>
+
+  <!-- Note -->
+  <text x="50" y="360" font-size="11" fill="gray">Carte simplifiée - Échelle 1/250 000</text>
+  <text x="50" y="375" font-size="11" fill="gray">1 cm sur la carte = 250 000 cm = 2,5 km dans la réalité</text>
+</svg>

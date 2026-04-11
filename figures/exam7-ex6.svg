@@ -1,0 +1,79 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle ABC avec milieux M et N, et homothétie -->
+
+  <!-- Triangle ABC -->
+  <!-- AB = 96, AC = 72, BC = 84 -->
+
+  <!-- Point A -->
+  <circle cx="80" cy="280" r="4" fill="black"/>
+  <text x="60" y="300" font-size="16" font-weight="bold">A</text>
+
+  <!-- Point B -->
+  <circle cx="272" cy="280" r="4" fill="black"/>
+  <text x="277" y="300" font-size="16" font-weight="bold">B</text>
+
+  <!-- Point C -->
+  <circle cx="224" cy="136" r="4" fill="black"/>
+  <text x="229" y="131" font-size="16" font-weight="bold">C</text>
+
+  <!-- Triangle ABC -->
+  <polygon points="80,280 272,280 224,136" fill="lightblue" fill-opacity="0.3" stroke="black" stroke-width="2.5"/>
+
+  <!-- Point M (milieu de [AB]) -->
+  <circle cx="176" cy="280" r="4" fill="red"/>
+  <text x="180" y="300" font-size="16" font-weight="bold" fill="red">M</text>
+
+  <!-- Point N (milieu de [AC]) -->
+  <!-- N = ((80+224)/2, (280+136)/2) = (152, 208) -->
+  <circle cx="152" cy="208" r="4" fill="blue"/>
+  <text x="135" y="203" font-size="16" font-weight="bold" fill="blue">N</text>
+
+  <!-- Segment MN (parallèle à BC) -->
+  <line x1="176" y1="280" x2="152" y2="208" stroke="green" stroke-width="2.5"/>
+
+  <!-- Segment BC -->
+  <line x1="272" y1="280" x2="224" y2="136" stroke="purple" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Marques de parallélisme -->
+  <line x1="164" y1="244" x2="168" y2="240" stroke="darkgreen" stroke-width="2"/>
+  <line x1="248" y1="208" x2="252" y2="204" stroke="darkgreen" stroke-width="2"/>
+
+  <!-- Dimensions du triangle ABC -->
+  <text x="160" y="300" font-size="12" fill="black">AB = 96 mm</text>
+  <text x="135" y="265" font-size="12" fill="black">AC = 72 mm</text>
+  <text x="255" y="220" font-size="12" fill="black">BC = 84 mm</text>
+
+  <text x="160" y="240" font-size="11" fill="green">MN = ?</text>
+
+  <!-- Homothétie de rapport 5/3 -->
+  <!-- A'B' = (5/3) × 96 = 160 -->
+  <!-- A'C' = (5/3) × 72 = 120 -->
+
+  <!-- Direction AB : (192, 0), donc AB' = (5/3) × 192 = 320 -->
+  <!-- B' = A + (320, 0) = (80 + 320, 280) = (400, 280) -->
+  <circle cx="400" cy="280" r="4" fill="orange"/>
+  <text x="405" y="300" font-size="14" font-weight="bold" fill="orange">B'</text>
+
+  <!-- Direction AC : (144, -144), donc AC' = (5/3) × (144, -144) = (240, -240) -->
+  <!-- C' = A + (240, -240) = (80 + 240, 280 - 240) = (320, 40) -->
+  <circle cx="320" cy="40" r="4" fill="orange"/>
+  <text x="325" y="35" font-size="14" font-weight="bold" fill="orange">C'</text>
+
+  <!-- Triangle A'B'C' (en pointillés) -->
+  <polygon points="80,280 400,280 320,40" fill="lightyellow" fill-opacity="0.2" stroke="orange" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Flèche pour homothétie -->
+  <defs>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="orange"/>
+    </marker>
+  </defs>
+  <line x1="272" y1="280" x2="350" y2="280" stroke="orange" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  <text x="300" y="270" font-size="11" fill="orange">k = 5/3</text>
+
+  <!-- Note -->
+  <text x="350" y="340" font-size="10" fill="gray">Figure non à l'échelle</text>
+  <text x="350" y="355" font-size="10" fill="gray">Triangle bleu: ABC</text>
+  <text x="350" y="370" font-size="10" fill="gray">Triangle orange: A'B'C'</text>
+  <text x="350" y="385" font-size="10" fill="gray">(MN) // (BC)</text>
+</svg>

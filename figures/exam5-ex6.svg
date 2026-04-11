@@ -1,0 +1,74 @@
+<svg width="550" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trapèze ABCD et sa translation A'B'C'D' -->
+
+  <!-- Trapèze ABCD -->
+  <!-- AB = 78 mm (base inférieure), CD = 52 mm (base supérieure), h = 45 mm -->
+
+  <!-- Point A (en bas à gauche) -->
+  <circle cx="50" cy="200" r="4" fill="black"/>
+  <text x="35" y="220" font-size="16" font-weight="bold">A</text>
+
+  <!-- Point B (en bas à droite) -->
+  <circle cx="206" cy="200" r="4" fill="black"/>
+  <text x="210" y="220" font-size="16" font-weight="bold">B</text>
+
+  <!-- Point D (en haut à gauche) -->
+  <circle cx="80" cy="110" r="4" fill="black"/>
+  <text x="65" y="105" font-size="16" font-weight="bold">D</text>
+
+  <!-- Point C (en haut à droite) -->
+  <circle cx="184" cy="110" r="4" fill="black"/>
+  <text x="188" y="105" font-size="16" font-weight="bold">C</text>
+
+  <!-- Trapèze ABCD -->
+  <polygon points="50,200 206,200 184,110 80,110" fill="lightblue" fill-opacity="0.3" stroke="black" stroke-width="2.5"/>
+
+  <!-- Vecteur de translation (6 cm = 60 mm à droite, 4 cm = 40 mm vers le bas) -->
+  <!-- On représente le vecteur avec une échelle réduite pour la figure -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="red"/>
+    </marker>
+  </defs>
+  <line x1="250" y1="50" x2="310" y2="70" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="270" y="45" font-size="14" fill="red" font-weight="bold">$\vec{v}$</text>
+
+  <!-- Trapèze A'B'C'D' (translation de 120 pixels à droite et 40 vers le bas pour la figure) -->
+
+  <!-- Point A' -->
+  <circle cx="170" cy="240" r="4" fill="darkblue"/>
+  <text x="155" y="260" font-size="16" font-weight="bold" fill="darkblue">A'</text>
+
+  <!-- Point B' -->
+  <circle cx="326" cy="240" r="4" fill="darkblue"/>
+  <text x="330" y="260" font-size="16" font-weight="bold" fill="darkblue">B'</text>
+
+  <!-- Point D' -->
+  <circle cx="200" cy="150" r="4" fill="darkblue"/>
+  <text x="185" y="145" font-size="16" font-weight="bold" fill="darkblue">D'</text>
+
+  <!-- Point C' -->
+  <circle cx="304" cy="150" r="4" fill="darkblue"/>
+  <text x="308" y="145" font-size="16" font-weight="bold" fill="darkblue">C'</text>
+
+  <!-- Trapèze A'B'C'D' -->
+  <polygon points="170,240 326,240 304,150 200,150" fill="lightgreen" fill-opacity="0.3" stroke="darkblue" stroke-width="2.5" stroke-dasharray="5,3"/>
+
+  <!-- Flèches de translation pour A et B -->
+  <line x1="50" y1="200" x2="170" y2="240" stroke="red" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <line x1="206" y1="200" x2="326" y2="240" stroke="red" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+
+  <!-- Dimensions -->
+  <text x="110" y="220" font-size="12" fill="black">AB = 78 mm</text>
+  <text x="120" y="95" font-size="12" fill="black">CD = 52 mm</text>
+  <text x="30" y="160" font-size="12" fill="black">h = 45 mm</text>
+
+  <!-- Hauteur (ligne verticale pointillée) -->
+  <line x1="80" y1="110" x2="80" y2="200" stroke="gray" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Note -->
+  <text x="350" y="290" font-size="11" fill="gray">Figure non à l'échelle</text>
+  <text x="350" y="305" font-size="11" fill="gray">Translation: 6 cm→, 4 cm↓</text>
+  <text x="350" y="320" font-size="11" fill="gray">Trapèze bleu: ABCD</text>
+  <text x="350" y="335" font-size="11" fill="gray">Trapèze vert: A'B'C'D'</text>
+</svg>

@@ -70,18 +70,17 @@ La droite passant par D et perpendiculaire à (AB) coupe [BC] en E.
 
 ---
 
-### Exercice 5 : Théorème de Thalès (3,5 points)
+### Exercice 5 : Volumes (3,5 points)
 
-On considère la figure ci-dessous où les points M, A, T sont alignés ainsi que les points M, H, R.
-On donne : MA = 42 mm ; MT = 63 mm ; MH = 56 mm ; MR = 84 mm ; AT = 21 mm.
+On considère un cylindre de révolution de rayon 42 mm et de hauteur 91 mm.
 
 ![Figure Exercice 5](figures/exam1-ex5.svg)
 
-**1.** Montrer que les droites (AH) et (TR) sont parallèles.
+**1.** Calculer le volume de ce cylindre. On donnera la valeur exacte en fonction de $\pi$, puis la valeur arrondie au mm³ près.
 
-**2.** Calculer AH.
+**2.** On place à l'intérieur de ce cylindre un cône de révolution ayant la même base et la même hauteur que le cylindre. Calculer le volume de ce cône.
 
-**3.** Calculer l'aire du triangle MAH.
+**3.** Quel pourcentage du volume du cylindre représente le volume du cône ?
 
 ---
 

@@ -78,19 +78,17 @@ Démontrer que le triangle EFC est rectangle. Préciser en quel sommet.
 
 ---
 
-### Exercice 5 : Théorème de Thalès (3 points)
+### Exercice 5 : Le cercle (3 points)
 
-Sur la figure ci-dessous (non à l'échelle), les droites (MN) et (PQ) sont parallèles.
-
-On donne : OM = 52 mm ; ON = 39 mm ; OP = 117 mm ; MN = 64 mm.
+On considère un cercle de centre O et de rayon 52 mm.
 
 ![Figure Exercice 5](figures/exam3-ex5.svg)
 
-**1.** Calculer OQ. Justifier.
+**1.** Calculer le périmètre de ce cercle. On donnera la valeur exacte en fonction de $\pi$, puis la valeur arrondie au mm près.
 
-**2.** Calculer PQ. Justifier.
+**2.** Calculer l'aire de ce cercle. On donnera la valeur exacte en fonction de $\pi$, puis la valeur arrondie au mm² près.
 
-**3.** Les points M, O et P sont-ils alignés ? Justifier votre réponse.
+**3.** On trace un arc de cercle AB tel que l'angle au centre $\widehat{AOB}$ mesure 117°. Calculer la longueur de cet arc AB.
 
 ---
 

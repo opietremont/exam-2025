@@ -1,0 +1,60 @@
+<svg width="550" height="380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sac avec billes colorées -->
+
+  <!-- Titre -->
+  <text x="180" y="30" font-size="18" font-weight="bold" fill="black">Sac de billes</text>
+
+  <!-- Sac (forme de sac) -->
+  <path d="M 150 80 Q 150 70 170 70 L 380 70 Q 400 70 400 80 L 420 320 Q 420 340 400 340 L 200 340 Q 180 340 180 320 Z"
+        fill="burlywood" fill-opacity="0.5" stroke="saddlebrown" stroke-width="3"/>
+
+  <!-- Ouverture du sac -->
+  <ellipse cx="275" cy="75" rx="115" ry="15" fill="none" stroke="saddlebrown" stroke-width="2.5"/>
+
+  <!-- Billes rouges (8) -->
+  <circle cx="220" cy="140" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="280" cy="160" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="340" cy="145" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="250" cy="200" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="310" cy="210" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="220" cy="240" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="360" cy="220" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+  <circle cx="280" cy="270" r="15" fill="red" stroke="darkred" stroke-width="2"/>
+
+  <!-- Billes bleues (11) -->
+  <circle cx="200" cy="180" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="260" cy="130" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="320" cy="180" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="380" cy="190" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="240" cy="240" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="300" cy="250" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="360" cy="270" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="200" cy="290" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="260" cy="305" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="330" cy="300" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <circle cx="390" cy="250" r="15" fill="blue" stroke="darkblue" stroke-width="2"/>
+
+  <!-- Billes vertes (7) -->
+  <circle cx="300" cy="120" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="360" cy="160" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="210" cy="210" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="280" cy="230" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="340" cy="240" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="240" cy="280" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <circle cx="320" cy="320" r="15" fill="green" stroke="darkgreen" stroke-width="2"/>
+
+  <!-- Légende -->
+  <circle cx="80" cy="120" r="12" fill="red" stroke="darkred" stroke-width="2"/>
+  <text x="100" y="126" font-size="14">8 billes rouges</text>
+
+  <circle cx="80" cy="160" r="12" fill="blue" stroke="darkblue" stroke-width="2"/>
+  <text x="100" y="166" font-size="14">11 billes bleues</text>
+
+  <circle cx="80" cy="200" r="12" fill="green" stroke="darkgreen" stroke-width="2"/>
+  <text x="100" y="206" font-size="14">7 billes vertes</text>
+
+  <text x="80" y="240" font-size="14" font-weight="bold">Total : 26 billes</text>
+
+  <!-- Note -->
+  <text x="150" y="370" font-size="11" fill="gray">Les billes sont indiscernables au toucher</text>
+</svg>

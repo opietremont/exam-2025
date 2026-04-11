@@ -1,63 +1,61 @@
-<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Triangle EFG -->
+<svg width="550" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graphique du parcours du cycliste -->
 
-  <!-- Point E (en haut) -->
-  <circle cx="250" cy="50" r="5" fill="black"/>
+  <!-- Titre -->
+  <text x="150" y="30" font-size="18" font-weight="bold" fill="black">Parcours du cycliste</text>
 
-  <!-- Point F (en bas à gauche) -->
-  <circle cx="100" cy="320" r="5" fill="black"/>
+  <!-- Axes -->
+  <!-- Axe horizontal (temps) -->
+  <line x1="50" y1="280" x2="520" y2="280" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+  <text x="490" y="300" font-size="14" font-weight="bold">Temps (min)</text>
 
-  <!-- Point G (en bas à droite) -->
-  <circle cx="400" cy="320" r="5" fill="black"/>
+  <!-- Axe vertical (distance) -->
+  <line x1="50" y1="280" x2="50" y2="50" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="10" y="70" font-size="14" font-weight="bold">Distance (km)</text>
 
-  <!-- Segment EF -->
-  <line x1="250" y1="50" x2="100" y2="320" stroke="black" stroke-width="2.5"/>
+  <!-- Graduations sur l'axe du temps -->
+  <line x1="50" y1="280" x2="50" y2="285" stroke="black" stroke-width="1"/>
+  <text x="43" y="300" font-size="12">0</text>
 
-  <!-- Segment EG -->
-  <line x1="250" y1="50" x2="400" y2="320" stroke="black" stroke-width="2.5"/>
+  <line x1="250" y1="280" x2="250" y2="285" stroke="black" stroke-width="1"/>
+  <text x="235" y="300" font-size="12">39 min</text>
 
-  <!-- Segment FG -->
-  <line x1="100" y1="320" x2="400" y2="320" stroke="black" stroke-width="2.5"/>
+  <line x1="470" y1="280" x2="470" y2="285" stroke="black" stroke-width="1"/>
+  <text x="455" y="300" font-size="12">65 min</text>
 
-  <!-- Point H sur [EF] tel que EH/EF = 39/104 = 3/8 -->
-  <!-- H est aux 3/8 de E vers F -->
-  <!-- Position H : E + (3/8)(F - E) -->
-  <!-- x = 250 + (3/8)(100 - 250) = 250 - 56.25 = 193.75 -->
-  <!-- y = 50 + (3/8)(320 - 50) = 50 + 101.25 = 151.25 -->
-  <circle cx="194" cy="151" r="4" fill="red"/>
+  <!-- Graduations sur l'axe des distances -->
+  <line x1="45" y1="280" x2="50" y2="280" stroke="black" stroke-width="1"/>
+  <text x="25" y="285" font-size="12">0</text>
 
-  <!-- Point K sur [EG] tel que EK/EG = 51/136 = 3/8 -->
-  <!-- K est aux 3/8 de E vers G -->
-  <!-- Position K : E + (3/8)(G - E) -->
-  <!-- x = 250 + (3/8)(400 - 250) = 250 + 56.25 = 306.25 -->
-  <!-- y = 50 + (3/8)(320 - 50) = 50 + 101.25 = 151.25 -->
-  <circle cx="306" cy="151" r="4" fill="blue"/>
+  <line x1="45" y1="147" x2="50" y2="147" stroke="black" stroke-width="1"/>
+  <text x="20" y="152" font-size="12">26 km</text>
 
-  <!-- Segment HK (parallèle à FG) -->
-  <line x1="194" y1="151" x2="306" y2="151" stroke="green" stroke-width="2.5"/>
+  <line x1="45" y1="80" x2="50" y2="80" stroke="black" stroke-width="1"/>
+  <text x="20" y="85" font-size="12">39 km</text>
 
-  <!-- Segment FG en pointillés pour montrer le parallélisme -->
-  <line x1="100" y1="320" x2="400" y2="320" stroke="purple" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Parcours du cycliste -->
+  <!-- Segment 1 : 0 à 39 min, 0 à 26 km -->
+  <line x1="50" y1="280" x2="250" y2="147" stroke="blue" stroke-width="3"/>
+  <circle cx="50" cy="280" r="5" fill="blue"/>
+  <circle cx="250" cy="147" r="5" fill="blue"/>
 
-  <!-- Labels des points -->
-  <text x="255" y="45" font-size="18" font-weight="bold">E</text>
-  <text x="80" y="330" font-size="18" font-weight="bold">F</text>
-  <text x="410" y="330" font-size="18" font-weight="bold">G</text>
-  <text x="170" y="145" font-size="16" font-weight="bold" fill="red">H</text>
-  <text x="315" y="145" font-size="16" font-weight="bold" fill="blue">K</text>
+  <!-- Segment 2 : 39 à 65 min, 26 à 39 km -->
+  <line x1="250" y1="147" x2="470" y2="80" stroke="red" stroke-width="3"/>
+  <circle cx="470" cy="80" r="5" fill="red"/>
 
-  <!-- Dimensions -->
-  <text x="155" y="90" font-size="13" fill="blue">EF = 104 mm</text>
-  <text x="310" y="90" font-size="13" fill="blue">EG = 136 mm</text>
-  <text x="230" y="350" font-size="13" fill="blue">FG = ?</text>
+  <!-- Annotations -->
+  <text x="120" y="200" font-size="13" fill="blue" font-weight="bold">26 km en 39 min</text>
+  <text x="320" y="100" font-size="13" fill="red" font-weight="bold">13 km en 26 min</text>
 
-  <text x="165" y="120" font-size="13" fill="red">EH = 39 mm</text>
-  <text x="305" y="120" font-size="13" fill="blue">EK = 51 mm</text>
-  <text x="235" y="140" font-size="13" fill="green">HK = 48 mm</text>
+  <!-- Légende -->
+  <rect x="50" y="310" width="20" height="10" fill="blue"/>
+  <text x="75" y="320" font-size="12">Première partie (vitesse constante)</text>
 
-  <!-- Indication de parallélisme -->
-  <text x="210" y="200" font-size="14" fill="green" font-weight="bold">(HK) // (FG)</text>
-
-  <!-- Note -->
-  <text x="170" y="380" font-size="13" fill="gray" font-style="italic">Figure non à l'échelle</text>
+  <rect x="300" y="310" width="20" height="10" fill="red"/>
+  <text x="325" y="320" font-size="12">Deuxième partie (vitesse constante)</text>
 </svg>

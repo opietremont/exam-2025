@@ -1,58 +1,62 @@
-<svg width="480" height="420" xmlns="http://www.w3.org/2000/svg">
-  <!-- Triangle ABC -->
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tableau des notes de statistiques -->
 
-  <!-- Point A (en haut à gauche) -->
-  <circle cx="80" cy="80" r="5" fill="black"/>
+  <!-- Titre -->
+  <text x="150" y="30" font-size="18" font-weight="bold" fill="black">Notes obtenues par les 26 élèves</text>
 
-  <!-- Point B (en bas) -->
-  <circle cx="50" cy="350" r="5" fill="black"/>
+  <!-- Tableau -->
+  <!-- En-tête -->
+  <rect x="50" y="50" width="120" height="40" fill="lightblue" stroke="black" stroke-width="2"/>
+  <rect x="170" y="50" width="400" height="40" fill="lightblue" stroke="black" stroke-width="2"/>
 
-  <!-- Point C (en haut à droite) -->
-  <circle cx="400" cy="120" r="5" fill="black"/>
+  <text x="90" y="75" font-size="14" font-weight="bold">Note</text>
+  <text x="320" y="75" font-size="14" font-weight="bold">Effectif</text>
 
-  <!-- Segment AB -->
-  <line x1="80" y1="80" x2="50" y2="350" stroke="black" stroke-width="2.5"/>
+  <!-- Ligne 1 : Note 7 -->
+  <rect x="50" y="90" width="120" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="170" y="90" width="400" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <text x="105" y="110" font-size="13" text-anchor="middle">7</text>
+  <text x="370" y="110" font-size="13" text-anchor="middle">1</text>
 
-  <!-- Segment AC -->
-  <line x1="80" y1="80" x2="400" y2="120" stroke="black" stroke-width="2.5"/>
+  <!-- Ligne 2 : Note 8 -->
+  <rect x="50" y="120" width="120" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="170" y="120" width="400" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <text x="105" y="140" font-size="13" text-anchor="middle">8</text>
+  <text x="370" y="140" font-size="13" text-anchor="middle">2</text>
 
-  <!-- Segment BC -->
-  <line x1="50" y1="350" x2="400" y2="120" stroke="black" stroke-width="2.5"/>
+  <!-- Ligne 3 : Note 9 -->
+  <rect x="50" y="150" width="120" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="170" y="150" width="400" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <text x="105" y="170" font-size="13" text-anchor="middle">9</text>
+  <text x="370" y="170" font-size="13" text-anchor="middle">1</text>
 
-  <!-- Point M sur [AB] tel que AM/AB = 48/72 = 2/3 -->
-  <!-- M est aux 2/3 de A vers B -->
-  <!-- Position M : A + (2/3)(B - A) -->
-  <!-- x = 80 + (2/3)(50 - 80) = 80 - 20 = 60 -->
-  <!-- y = 80 + (2/3)(350 - 80) = 80 + 180 = 260 -->
-  <circle cx="60" cy="260" r="4" fill="red"/>
+  <!-- Ligne 4 : Note 10 -->
+  <rect x="50" y="180" width="120" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="170" y="180" width="400" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <text x="105" y="200" font-size="13" text-anchor="middle">10</text>
+  <text x="370" y="200" font-size="13" text-anchor="middle">2</text>
 
-  <!-- Point N sur [AC] tel que AN/AC = 72/108 = 2/3 -->
-  <!-- N est aux 2/3 de A vers C -->
-  <!-- x = 80 + (2/3)(400 - 80) = 80 + 213.33 = 293.33 -->
-  <!-- y = 80 + (2/3)(120 - 80) = 80 + 26.67 = 106.67 -->
-  <circle cx="293" cy="107" r="4" fill="blue"/>
+  <!-- Ligne 5 : Note 11 -->
+  <rect x="50" y="210" width="120" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="170" y="210" width="400" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <text x="105" y="230" font-size="13" text-anchor="middle">11</text>
+  <text x="370" y="230" font-size="13" text-anchor="middle">2</text>
 
-  <!-- Segment MN (parallèle à BC) -->
-  <line x1="60" y1="260" x2="293" y2="107" stroke="green" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Données supplémentaires à droite -->
+  <text x="220" y="110" font-size="12">Note 12 : 3 élèves</text>
+  <text x="220" y="140" font-size="12">Note 13 : 2 élèves</text>
+  <text x="220" y="170" font-size="12">Note 14 : 3 élèves</text>
+  <text x="220" y="200" font-size="12">Note 15 : 2 élèves</text>
+  <text x="220" y="230" font-size="12">Note 16 : 2 élèves</text>
 
-  <!-- Labels des points -->
-  <text x="85" y="75" font-size="18" font-weight="bold">A</text>
-  <text x="30" y="360" font-size="18" font-weight="bold">B</text>
-  <text x="410" y="125" font-size="18" font-weight="bold">C</text>
-  <text x="40" y="265" font-size="16" font-weight="bold" fill="red">M</text>
-  <text x="300" y="100" font-size="16" font-weight="bold" fill="blue">N</text>
+  <text x="400" y="110" font-size="12">Note 17 : 2 élèves</text>
+  <text x="400" y="140" font-size="12">Note 18 : 2 élèves</text>
+  <text x="400" y="170" font-size="12">Note 19 : 1 élève</text>
+  <text x="400" y="200" font-size="12">Note 20 : 1 élève</text>
 
-  <!-- Dimensions -->
-  <text x="15" y="170" font-size="13" fill="blue">AB = 72 mm</text>
-  <text x="220" y="90" font-size="13" fill="blue">AC = 108 mm</text>
-  <text x="210" y="260" font-size="13" fill="blue">BC = 132 mm</text>
-
-  <text x="50" y="180" font-size="13" fill="red">AM = 48 mm</text>
-  <text x="170" y="80" font-size="13" fill="blue">AN = 72 mm</text>
-
-  <!-- Segment MN -->
-  <text x="160" y="200" font-size="13" fill="green">MN = ?</text>
-
-  <!-- Note : figure non à l'échelle -->
-  <text x="160" y="400" font-size="13" fill="gray" font-style="italic">Figure non à l'échelle</text>
+  <!-- Total -->
+  <rect x="50" y="240" width="120" height="30" fill="lightgray" stroke="black" stroke-width="2"/>
+  <rect x="170" y="240" width="400" height="30" fill="lightgray" stroke="black" stroke-width="2"/>
+  <text x="90" y="260" font-size="14" font-weight="bold">TOTAL</text>
+  <text x="370" y="260" font-size="14" font-weight="bold" text-anchor="middle">26 élèves</text>
 </svg>

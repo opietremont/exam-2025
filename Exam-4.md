@@ -80,21 +80,17 @@ Démontrer que les droites (MN) et (BC) sont parallèles, puis calculer AN et MN
 
 ---
 
-### Exercice 5 : Théorème de Thalès (3,5 points)
+### Exercice 5 : Vitesse et distance (3,5 points)
 
-EFG est un triangle. Le point H est sur le segment [EF] et le point K est sur le segment [EG].
-
-On donne : EF = 104 mm ; EH = 39 mm ; EG = 136 mm ; EK = 51 mm ; HK = 48 mm.
+Un cycliste parcourt une distance lors d'une course contre la montre.
 
 ![Figure Exercice 5](figures/exam4-ex5.svg)
 
-**1.** Les droites (HK) et (FG) sont-elles parallèles ? Justifier par un calcul.
+**1.** Durant les 39 premières minutes, il parcourt 26 km à vitesse constante. Calculer sa vitesse en km/h. Arrondir au dixième.
 
-**2.** On suppose maintenant que (HK) // (FG).
+**2.** Il ralentit ensuite et parcourt les 13 km suivants en 26 minutes à vitesse constante. Calculer sa nouvelle vitesse en km/h. Arrondir au dixième.
 
-Calculer FG.
-
-**3.** Sachant que l'aire du triangle EHK est de 936 mm², calculer l'aire du triangle EFG.
+**3.** Calculer sa vitesse moyenne sur l'ensemble du parcours (39 km en 65 minutes). Arrondir au dixième.
 
 ---
 

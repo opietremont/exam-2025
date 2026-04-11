@@ -64,19 +64,19 @@ Un automobiliste parcourt 357 km en consommant 23,8 litres d'essence.
 
 ## GÉOMÉTRIE (10 points)
 
-### Exercice 4 : Théorème de Thalès et calculs (3,5 points)
+### Exercice 4 : Statistiques (3,5 points)
 
-ABC est un triangle tel que AB = 72 mm, AC = 108 mm et BC = 132 mm.
-
-Les points M et N sont respectivement sur les segments [AB] et [AC] tels que AM = 48 mm et AN = 72 mm.
+Le tableau ci-dessous présente les notes obtenues par les 26 élèves d'une classe de 4ème lors d'un contrôle de mathématiques :
 
 ![Figure Exercice 4](figures/exam2-ex4.svg)
 
-**1.** Démontrer que les droites (MN) et (BC) sont parallèles.
+**1.** Calculer la note moyenne de la classe. Arrondir au dixième.
 
-**2.** Calculer MN.
+**2.** Déterminer la note médiane de cette série.
 
-**3.** Calculer l'aire du triangle AMN sachant que l'aire du triangle ABC est de 3024 mm².
+**3.** Calculer l'étendue de cette série de notes.
+
+**4.** Quel pourcentage d'élèves a obtenu une note supérieure ou égale à 12 ?
 
 ---
 
