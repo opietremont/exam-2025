@@ -1,0 +1,23 @@
+<svg width="450" height="380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figure Q2 feuille 10 : point I, demi-droites avec M,E et N,D ; (MN) // (ED) -->
+  <line x1="220" y1="30" x2="70" y2="330" stroke="black" stroke-width="2"/>
+  <line x1="220" y1="30" x2="380" y2="330" stroke="black" stroke-width="2"/>
+
+  <line x1="170" y1="130" x2="273.3" y2="130" stroke="green" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="70" y1="330" x2="380" y2="330" stroke="blue" stroke-width="2"/>
+
+  <circle cx="220" cy="30" r="4" fill="black"/>
+  <circle cx="170" cy="130" r="4" fill="black"/>
+  <circle cx="70" cy="330" r="4" fill="black"/>
+  <circle cx="273.3" cy="130" r="4" fill="black"/>
+  <circle cx="380" cy="330" r="4" fill="black"/>
+
+  <text x="226" y="25" font-size="16" font-weight="bold">I</text>
+  <text x="140" y="125" font-size="15" font-weight="bold">M</text>
+  <text x="48" y="350" font-size="15" font-weight="bold">E</text>
+  <text x="280" y="125" font-size="15" font-weight="bold">N</text>
+  <text x="386" y="350" font-size="15" font-weight="bold">D</text>
+
+  <text x="150" y="95" font-size="12" fill="green">(MN) // (ED)</text>
+  <text x="60" y="20" font-size="11" fill="gray">Figure non à l'échelle</text>
+</svg>

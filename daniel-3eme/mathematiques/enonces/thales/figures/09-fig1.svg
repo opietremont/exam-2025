@@ -1,0 +1,41 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figure Q2-Q3-Q4 feuille 9 : point O, deux demi-droites -->
+  <!-- Ray 1 (gauche) : O, C, A, P, R dans cet ordre -->
+  <!-- Ray 2 (droite) : O, N, B, Q, S dans cet ordre -->
+
+  <line x1="250" y1="30" x2="70" y2="330" stroke="black" stroke-width="2"/>
+  <line x1="250" y1="30" x2="430" y2="330" stroke="black" stroke-width="2"/>
+
+  <!-- segment CN (parallèle à AB), en pointillés -->
+  <line x1="214" y1="90" x2="295" y2="105" stroke="green" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- segment AB -->
+  <line x1="160" y1="180" x2="362.5" y2="217.5" stroke="blue" stroke-width="2"/>
+  <!-- segment PQ (en pointillés, question 3) -->
+  <line x1="124" y1="240" x2="407.5" y2="292.5" stroke="purple" stroke-width="2" stroke-dasharray="3,3"/>
+  <!-- segment RS (question 4) -->
+  <line x1="70" y1="330" x2="430" y2="330" stroke="orange" stroke-width="2" stroke-dasharray="2,4"/>
+
+  <circle cx="250" cy="30" r="4" fill="black"/>
+  <circle cx="214" cy="90" r="4" fill="black"/>
+  <circle cx="160" cy="180" r="4" fill="black"/>
+  <circle cx="124" cy="240" r="4" fill="black"/>
+  <circle cx="70" cy="330" r="4" fill="black"/>
+  <circle cx="295" cy="105" r="4" fill="black"/>
+  <circle cx="362.5" cy="217.5" r="4" fill="black"/>
+  <circle cx="407.5" cy="292.5" r="4" fill="black"/>
+  <circle cx="430" cy="330" r="4" fill="black"/>
+
+  <text x="255" y="25" font-size="16" font-weight="bold">O</text>
+  <text x="195" y="85" font-size="15" font-weight="bold">C</text>
+  <text x="135" y="178" font-size="15" font-weight="bold">A</text>
+  <text x="95" y="240" font-size="15" font-weight="bold">P</text>
+  <text x="48" y="345" font-size="15" font-weight="bold">R</text>
+  <text x="302" y="102" font-size="15" font-weight="bold">N</text>
+  <text x="368" y="213" font-size="15" font-weight="bold">B</text>
+  <text x="413" y="288" font-size="15" font-weight="bold">Q</text>
+  <text x="436" y="345" font-size="15" font-weight="bold">S</text>
+
+  <text x="140" y="130" font-size="12" fill="green">(CN) // (AB)</text>
+  <text x="330" y="330" font-size="11" fill="gray">Figure non à l'échelle</text>
+  <text x="330" y="345" font-size="11" fill="gray">P, Q utilisés en Q3 ; R, S en Q4</text>
+</svg>

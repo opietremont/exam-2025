@@ -1,0 +1,33 @@
+<svg width="480" height="460" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figure Q10 feuille 10 : mesure de la largeur d'une rivière -->
+  <!-- rive proche (bas) : A, C, D ; rive opposée : B ; E en retrait, aligné avec C et B -->
+  <line x1="40" y1="210" x2="420" y2="210" stroke="#4477aa" stroke-width="2"/>
+  <line x1="40" y1="300" x2="420" y2="300" stroke="black" stroke-width="2"/>
+
+  <!-- AB (largeur, perpendiculaire aux rives) -->
+  <line x1="100" y1="300" x2="100" y2="210" stroke="red" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <!-- DE (perpendiculaire, mesurée) -->
+  <line x1="250" y1="300" x2="250" y2="435" stroke="green" stroke-width="1.8"/>
+  <!-- ligne de visée E-C-B -->
+  <line x1="250" y1="435" x2="100" y2="210" stroke="purple" stroke-width="1.6"/>
+
+  <circle cx="100" cy="210" r="4" fill="black"/>
+  <circle cx="100" cy="300" r="4" fill="black"/>
+  <circle cx="160" cy="300" r="4" fill="black"/>
+  <circle cx="250" cy="300" r="4" fill="black"/>
+  <circle cx="250" cy="435" r="4" fill="black"/>
+
+  <text x="80" y="200" font-size="16" font-weight="bold">B</text>
+  <text x="80" y="320" font-size="16" font-weight="bold">A</text>
+  <text x="168" y="320" font-size="16" font-weight="bold">C</text>
+  <text x="258" y="320" font-size="16" font-weight="bold">D</text>
+  <text x="258" y="450" font-size="16" font-weight="bold">E</text>
+
+  <text x="420" y="205" font-size="12" fill="#4477aa">rive opposée</text>
+  <text x="420" y="300" font-size="12">rive proche</text>
+  <text x="105" y="260" font-size="11" fill="red">largeur</text>
+  <text x="255" y="370" font-size="11" fill="green">DE</text>
+
+  <text x="60" y="30" font-size="12">A, C, D alignés sur la rive proche ; E, C, B alignés (visée)</text>
+  <text x="60" y="45" font-size="11" fill="gray">(AB) et (DE) perpendiculaires à la rive ; figure non à l'échelle</text>
+</svg>

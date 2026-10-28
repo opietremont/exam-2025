@@ -1,0 +1,32 @@
+<svg width="460" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figure Q8 feuille 10 : partage de [AB] dans le rapport 2:3 par la méthode de Thalès -->
+  <line x1="60" y1="250" x2="420" y2="250" stroke="black" stroke-width="2"/>
+  <!-- demi-droite auxiliaire graduée -->
+  <line x1="60" y1="250" x2="260" y2="130" stroke="black" stroke-width="1.5"/>
+
+  <!-- segment vers B (dernier point -> B) -->
+  <line x1="234" y1="150" x2="420" y2="250" stroke="blue" stroke-width="1.6"/>
+  <!-- parallèle passant par le point 2, coupant (AB) en M -->
+  <line x1="129.6" y1="210" x2="204" y2="250" stroke="green" stroke-width="1.8" stroke-dasharray="5,3"/>
+
+  <circle cx="60" cy="250" r="4" fill="black"/>
+  <circle cx="420" cy="250" r="4" fill="black"/>
+  <circle cx="94.8" cy="230" r="3.5" fill="black"/>
+  <circle cx="129.6" cy="210" r="3.5" fill="black"/>
+  <circle cx="164.4" cy="190" r="3.5" fill="black"/>
+  <circle cx="199.2" cy="170" r="3.5" fill="black"/>
+  <circle cx="234" cy="150" r="3.5" fill="black"/>
+  <circle cx="204" cy="250" r="4" fill="green"/>
+
+  <text x="40" y="270" font-size="16" font-weight="bold">A</text>
+  <text x="425" y="270" font-size="16" font-weight="bold">B</text>
+  <text x="196" y="258" font-size="15" font-weight="bold" fill="green">M</text>
+  <text x="80" y="222" font-size="11">1</text>
+  <text x="112" y="202" font-size="11">2</text>
+  <text x="147" y="182" font-size="11">3</text>
+  <text x="182" y="162" font-size="11">4</text>
+  <text x="222" y="142" font-size="11">5</text>
+
+  <text x="60" y="30" font-size="12" fill="black">AB = 18 cm ; AM/MB = 2/3</text>
+  <text x="60" y="50" font-size="11" fill="gray">5 longueurs égales sur la demi-droite auxiliaire ; figure non à l'échelle</text>
+</svg>

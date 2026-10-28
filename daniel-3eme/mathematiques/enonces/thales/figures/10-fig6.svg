@@ -1,0 +1,29 @@
+<svg width="480" height="340" xmlns="http://www.w3.org/2000/svg">
+  <!-- Figure Q9 feuille 10 : trois parallèles (d1)(d2)(d3) coupées par deux sécantes -->
+  <line x1="40" y1="80" x2="440" y2="80" stroke="black" stroke-width="1.6"/>
+  <line x1="40" y1="180" x2="440" y2="180" stroke="black" stroke-width="1.6"/>
+  <line x1="40" y1="290" x2="440" y2="290" stroke="black" stroke-width="1.6"/>
+
+  <line x1="60" y1="60" x2="380" y2="310" stroke="blue" stroke-width="1.8"/>
+  <line x1="420" y1="50" x2="120" y2="310" stroke="purple" stroke-width="1.8"/>
+
+  <circle cx="85.6" cy="80" r="4" fill="blue"/>
+  <circle cx="213.6" cy="180" r="4" fill="blue"/>
+  <circle cx="354.4" cy="290" r="4" fill="blue"/>
+  <circle cx="385.4" cy="80" r="4" fill="purple"/>
+  <circle cx="270" cy="180" r="4" fill="purple"/>
+  <circle cx="143" cy="290" r="4" fill="purple"/>
+
+  <text x="65" y="75" font-size="15" font-weight="bold" fill="blue">A</text>
+  <text x="222" y="175" font-size="15" font-weight="bold" fill="blue">B</text>
+  <text x="362" y="310" font-size="15" font-weight="bold" fill="blue">C</text>
+  <text x="392" y="75" font-size="15" font-weight="bold" fill="purple">A'</text>
+  <text x="277" y="175" font-size="15" font-weight="bold" fill="purple">B'</text>
+  <text x="110" y="310" font-size="15" font-weight="bold" fill="purple">C'</text>
+
+  <text x="445" y="84" font-size="12">(d1)</text>
+  <text x="445" y="184" font-size="12">(d2)</text>
+  <text x="445" y="294" font-size="12">(d3)</text>
+
+  <text x="60" y="30" font-size="11" fill="gray">(d1) // (d2) // (d3) ; figure non à l'échelle</text>
+</svg>
